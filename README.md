@@ -97,7 +97,7 @@ npm install -D @babel/core @babel/preset-env// .babelrc{ "presets": [ ["@babel/p
     afterEach
     afterAll
     describe 进行用例分组
- 	beforeAll：所有用例开始执行前* beforeEach：每个用例执行前* afterEach* afterAll* describe 进行用例分组
+ 	  beforeAll：所有用例开始执行前* beforeEach：每个用例执行前* afterEach* afterAll* describe 进行用例分组
 
 #### 测试异步代码
 
@@ -108,8 +108,3 @@ npm install -D @babel/core @babel/preset-env// .babelrc{ "presets": [ ["@babel/p
 3. async + await
 
 #### Jest 中的 mock
-
-
-
-
-
