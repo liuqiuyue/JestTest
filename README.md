@@ -19,8 +19,9 @@
 
 ## 使用前端自动化测试的项目
 
-![](undefined)
+![项目](https://p5.ssl.qhimg.com/t0173f42d12f04cdf9e.png "项目")
 
+![antd](https://p3.ssl.qhimg.com/t01796926715f9654d4.png "antd")
 ## 前端自动化测试分类
 ### 1、单元测试
 定义：对应用中的最小可测试单元进行检查和验证，通常指的是独立测试单个函数。
@@ -37,10 +38,10 @@ PS：前端单元测试，是所有类型的前端自动化测试中成本较低
 定义：站在用户角度的测试，把我们的程序看成是一个黑盒子，用来确保整个应用会按照用户期望的那样运行。举例：不关心代码内部的实现，只负责打开浏览器，把测试用例中设置的内容在页面上输入一遍，测试与预期是否相符。
 工具： Nightwatch, Cypress, Phantomjs, Puppeteer 等。
 
-
+![自动化测试中的测试金字塔](https://p1.ssl.qhimg.com/t01365ba8b419e954ca.png "自动化测试中的测试金字塔")
 
 *自动化测试中的测试金字塔（敏捷大师Mike Cohn提出该概念，后由Martin Fowler大师在此基础上提出了测试分层概念）。*
-*按照测试金字塔模型以及投入/产出比，越向下，回报率越高。
+* 按照测试金字塔模型以及投入/产出比，越向下，回报率越高。*
 ## Jest介绍-目前最流行的前端测试框架
 - 优势：速度快、API简单、配置简单 、快出覆盖率、 IDE整合；React/Vue 官方推荐的单元测试工具都是 Jest
 
@@ -97,7 +98,7 @@ npm install -D @babel/core @babel/preset-env// .babelrc{ "presets": [ ["@babel/p
     afterEach
     afterAll
     describe 进行用例分组
- 	  beforeAll：所有用例开始执行前* beforeEach：每个用例执行前* afterEach* afterAll* describe 进行用例分组
+ 	beforeAll：所有用例开始执行前* beforeEach：每个用例执行前* afterEach* afterAll* describe 进行用例分组
 
 #### 测试异步代码
 
@@ -108,3 +109,16 @@ npm install -D @babel/core @babel/preset-env// .babelrc{ "presets": [ ["@babel/p
 3. async + await
 
 #### Jest 中的 mock
+
+
+### 深入阅读
+JEST https://www.jestjs.cn/
+
+前端测试之Jest深入浅出 https://juejin.cn/post/6844904196244766728
+
+vue-test-utils https://vue-test-utils.vuejs.org/zh/
+
+
+
+
+
