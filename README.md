@@ -19,7 +19,7 @@
 
 ## 使用前端自动化测试的项目
 
-![项目](https://p5.ssl.qhimg.com/t0173f42d12f04cdf9e.png "项目")
+![项目](https://p.ssl.qhimg.com/t0173f42d12f04cdf9e.webp "项目")
 
 ![antd](https://p3.ssl.qhimg.com/t01796926715f9654d4.png "antd")
 ## 前端自动化测试分类
@@ -117,8 +117,3 @@ JEST https://www.jestjs.cn/
 前端测试之Jest深入浅出 https://juejin.cn/post/6844904196244766728
 
 vue-test-utils https://vue-test-utils.vuejs.org/zh/
-
-
-
-
-
