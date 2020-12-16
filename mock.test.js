@@ -52,7 +52,7 @@ test('测试request', async () => {
     axios.get.mockResolvedValueOnce({ data: 'jordan', position: 'SG' })//只会改变一次返回的数据
     axios.get.mockResolvedValue({ data: 'kobe', position: 'SG' })
     await request().then((res) => {
-        expect(res.data).toBe('Jordan')
+        expect(res.data).toBe('jordan')
     })
     await request().then((res) => {
         expect(res.data).toBe('kobe')
